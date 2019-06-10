@@ -22,14 +22,18 @@ input[type="radio"].visually-hidden {
     padding: 0;
 }
 
+header.container {
+    padding: 32px 0px 100px 0px;
+}
+
 h1 {
     font-size: 0;
-
 }
 
 .site-logo {
     display: inline-block;
-    margin-top: 36px;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -53,16 +57,14 @@ h1::first-letter {
 }
 
 .navigation {
-    margin-top: 42px;
-    margin-bottom: 104px;
+    margin: 0;
+    padding: 0;
     float: right;
-
-
 }
 
 .site-navigation {
     margin: 0;
-    padding: 0;
+    padding: 8px 0 0 0;
 }
 
 .site-navigation-item a {
@@ -81,6 +83,7 @@ h1::first-letter {
 }
 
 .site-navigation li {
+    display: block;
     float: left;
     list-style: none;
     margin: 0 30px 0 0;
@@ -169,7 +172,8 @@ h1::first-letter {
 }
 
 .product-item:hover .price {
-    background-color:  rgba(26, 188, 156, 0.44);;
+    background-color: rgba(26, 188, 156, 0.44);
+    ;
 
 }
 
@@ -219,7 +223,13 @@ h1::first-letter {
     line-height: 26px;
     font-weight: 600;
     color: #555252;
+    margin: 0;
+    padding: 0;
 
+}
+
+.news-item img {
+    margin-bottom: 14px;
 }
 
 .news-title:after {
@@ -230,7 +240,6 @@ h1::first-letter {
     background-color: #1abc9c;
     margin-top: 12px;
     margin-bottom: 26px;
-
 }
 
 .news-text {
@@ -239,18 +248,24 @@ h1::first-letter {
     line-height: 26px;
     font-weight: 400;
     color: #555252;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 14px;
 }
 
-.news-button {
+.news-more {
     display: block;
     cursor: pointer;
     border: none;
     width: 160px;
     height: 50px;
-    background-color: #1abc9c;
+    margin-bottom: 80px;
+    border-radius: 3px;
+    background-color: rgb(78, 198, 171);
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 50px;
     color: #ffffff;
-    margin-bottom: 80px;
+    text-align: center;
 }
