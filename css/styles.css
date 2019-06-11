@@ -68,6 +68,7 @@ h1::first-letter {
 }
 
 .site-navigation-item a {
+    display: block;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
@@ -259,7 +260,6 @@ h1::first-letter {
     border: none;
     width: 160px;
     height: 50px;
-    margin-bottom: 80px;
     border-radius: 3px;
     background-color: rgb(78, 198, 171);
     text-decoration: none;
@@ -268,4 +268,8 @@ h1::first-letter {
     line-height: 50px;
     color: #ffffff;
     text-align: center;
+}
+
+.section-news {
+    padding-bottom: 80px;
 }
